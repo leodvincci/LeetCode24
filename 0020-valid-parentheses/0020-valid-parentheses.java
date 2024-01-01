@@ -6,10 +6,14 @@ class Solution {
         myMap.put('{', '}');
         myMap.put('[', ']');
     
+
         for(Character c : s.toCharArray()){
             if(c == '(' || c == '{' || c == '['){
                 myStack.push(c);
-            }else {
+            }else{
+                if(myStack.isEmpty()){
+                    return false;
+                }else {
                     Object popChar = myStack.pop();
                     boolean compare = myMap.get(popChar).equals(c);
                     if(compare == false){
@@ -17,6 +21,8 @@ class Solution {
                     }
                 }
             }
+        }
+
         return myStack.isEmpty();
     }
 }
