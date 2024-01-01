@@ -46,8 +46,8 @@ Let's build a comprehensive collection of LeetCode solutions together!
 
 If you have any questions, suggestions, or just want to connect, feel free to reach out:
 
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/leodpenrose/)
-- Twitter: [@YourTwitterHandle](https://twitter.com/ldpenrose/)
+- LinkedIn: (https://www.linkedin.com/in/leodpenrose/)
+- Twitter: (https://twitter.com/ldpenrose/)
 - Personal (http://www.leodpenrose.com)
 
 Happy coding! 🚀
